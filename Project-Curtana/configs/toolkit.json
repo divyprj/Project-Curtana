@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "project": "Project-Curtana",
+  "default_device_profile": "curtana",
+  "paths": {
+    "platform_tools": "tools/platform-tools",
+    "recovery_images": "recovery/orangefox",
+    "firmware": "firmware",
+    "drivers": "drivers",
+    "logs": "logs"
+  },
+  "safety": {
+    "require_fastboot_product_check": true,
+    "warn_before_flashing_recovery": true,
+    "warn_before_partition_backup": true,
+    "allow_critical_partition_flash_by_default": false
+  },
+  "hashing": {
+    "algorithm": "sha256",
+    "sidecar_extensions": [
+      ".sha256",
+      ".sha256sum"
+    ]
+  }
+}
+

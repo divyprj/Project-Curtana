@@ -1,0 +1,33 @@
+name: Feature request
+description: Propose a new script, automation module, or documentation workflow
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What real Curtana workflow does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe CLI behavior, script behavior, docs, and safety checks.
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk level
+      options:
+        - Documentation only
+        - Read-only device query
+        - File verification
+        - Recovery action
+        - Partition write or wipe risk
+    validations:
+      required: true
+

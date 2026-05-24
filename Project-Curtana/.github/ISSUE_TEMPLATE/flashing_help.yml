@@ -1,0 +1,48 @@
+name: Flashing help
+description: Ask for help with a Curtana flashing or recovery workflow
+title: "help: "
+labels:
+  - support
+  - needs-triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remove IMEI, serial number, phone number, account email, and personal file names before posting logs.
+  - type: dropdown
+    id: current_state
+    attributes:
+      label: Current phone state
+      options:
+        - Boots Android
+        - Boots recovery
+        - Boots Fastboot
+        - Boots FastbootD
+        - Bootloop
+        - Black screen / no visible mode
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device variant
+      placeholder: Redmi Note 9 Pro India / Redmi Note 9S / unknown
+    validations:
+      required: true
+  - type: textarea
+    id: recent_actions
+    attributes:
+      label: What changed before the issue?
+      description: List ROM, firmware, recovery, Magisk, wipe, format, or restore operations in order.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: command_output
+    attributes:
+      label: Sanitized command output
+      description: Include `adb devices -l`, `fastboot devices`, or recovery logs when available.
+      render: text
+    validations:
+      required: false
+

@@ -1,0 +1,35 @@
+# Runtime output
+logs/**
+!logs/README.md
+!logs/.gitkeep
+
+# Local binary payloads
+firmware/*.zip
+firmware/*.tgz
+firmware/*.tar
+firmware/*.tar.md5
+firmware/*.7z
+recovery/orangefox/*.img
+recovery/orangefox/*.zip
+drivers/*.zip
+drivers/extracted/
+tools/platform-tools/adb.exe
+tools/platform-tools/fastboot.exe
+tools/platform-tools/AdbWinApi.dll
+tools/platform-tools/AdbWinUsbApi.dll
+
+# Backups created by automation
+backups/
+logs/backups/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Windows
+Thumbs.db
+Desktop.ini
+

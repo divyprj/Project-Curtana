@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "profiles": {
+    "curtana": {
+      "marketing_names": [
+        "Redmi Note 9 Pro India",
+        "Redmi Note 9S"
+      ],
+      "family": "miatoll",
+      "soc": "Qualcomm Snapdragon 720G",
+      "dynamic_partitions": true,
+      "fastbootd_required_for_dynamic_super_images": true,
+      "recovery_partition": "recovery",
+      "critical_partitions": [
+        "abl",
+        "aop",
+        "bluetooth",
+        "cmnlib",
+        "cmnlib64",
+        "devcfg",
+        "dsp",
+        "hyp",
+        "keymaster",
+        "modem",
+        "qupfw",
+        "tz",
+        "vbmeta",
+        "xbl",
+        "xbl_config"
+      ],
+      "safe_backup_partitions": [
+        "boot",
+        "dtbo",
+        "recovery",
+        "vbmeta",
+        "vendor_boot",
+        "persist"
+      ],
+      "known_fastboot_products": [
+        "curtana",
+        "miatoll"
+      ],
+      "notes": [
+        "Curtana belongs to Xiaomi's miatoll device family. Some recoveries and ROMs target the wider miatoll family; firmware packages should still match the exact regional model and Android base."
+      ]
+    }
+  }
+}
+

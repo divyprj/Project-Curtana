@@ -1,0 +1,68 @@
+name: Bug report
+description: Report a reproducible issue in Project-Curtana
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Do not include IMEI, phone number, account email, or private files.
+  - type: input
+    id: version
+    attributes:
+      label: Project-Curtana version or commit
+      placeholder: 0.1.0 or commit SHA
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Affected layer
+      options:
+        - Documentation
+        - ADB
+        - Fastboot
+        - FastbootD
+        - Recovery
+        - Driver setup
+        - Python automation
+        - PowerShell automation
+        - GitHub workflow
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include exact commands and the phone mode when each command was run.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Paste sanitized terminal output.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      value: |
+        - Windows version:
+        - Platform-tools version:
+        - Device codename shown by Fastboot:
+        - Recovery build:
+        - ROM or firmware target:
+    validations:
+      required: true
+
