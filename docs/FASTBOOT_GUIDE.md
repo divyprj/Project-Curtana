@@ -272,4 +272,3 @@ fastboot getvar all 2> logs\fastboot-getvar-all.txt
 ```
 
 Remove serial numbers, IMEI, token values, and account identifiers before sharing.
-

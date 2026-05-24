@@ -19,4 +19,3 @@ Before committing screenshots, remove:
 - Account email.
 - Personal filenames.
 - Notification content.
-

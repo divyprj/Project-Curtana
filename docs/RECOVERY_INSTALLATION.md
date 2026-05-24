@@ -218,4 +218,3 @@ These features vary by build. Trust the recovery maintainer's release notes over
 - Keep stock restore path available.
 - Never relock bootloader after installing custom recovery or ROM.
 - Keep logs when a flash fails.
-

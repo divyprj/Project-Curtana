@@ -115,4 +115,3 @@ Open a flashing help issue and include:
 - What changed immediately before failure.
 
 Remove IMEI, serial numbers, account emails, and personal file names.
-

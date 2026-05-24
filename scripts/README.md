@@ -47,4 +47,3 @@ Scripts prefer local platform-tools under `tools\platform-tools`. If local tools
 Project-Curtana\tools\platform-tools\adb.exe
 Project-Curtana\tools\platform-tools\fastboot.exe
 ```
-

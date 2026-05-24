@@ -250,4 +250,3 @@ Print or copy this before a flash:
 [ ] I know whether this flow requires format data.
 [ ] I will not relock bootloader unless fully stock.
 ```
-

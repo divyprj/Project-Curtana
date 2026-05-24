@@ -19,4 +19,3 @@ The project follows [Semantic Versioning](https://semver.org/) and uses Conventi
 ### Security
 
 - Added flashing safety model, anti-brick guidance, rollback warnings, and responsible disclosure policy.
-

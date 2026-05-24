@@ -2,7 +2,7 @@
 
 ## Summary
 
-- 
+-
 
 ## Type
 
@@ -36,4 +36,3 @@ Commands run:
 ```text
 
 ```
-

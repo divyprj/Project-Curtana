@@ -24,4 +24,3 @@ Run the script from an Administrator Command Prompt. After installation, reconne
 | Qualcomm emergency mode | Qualcomm HS-USB QDLoader 9008 |
 
 Do not use random driver repacks from untrusted sites. A bad USB driver can break detection across ADB, Fastboot, and FastbootD.
-

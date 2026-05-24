@@ -300,4 +300,3 @@ Fastboot visible
 ```
 
 If Fastboot is not visible, troubleshoot battery, button combos, USB, and possible service modes before attempting any flashing.
-

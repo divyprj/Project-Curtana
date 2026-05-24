@@ -220,4 +220,3 @@ fastboot getvar all 2> logs\fastbootd-getvar-all.txt
 ```
 
 Sanitize serial numbers before sharing logs.
-

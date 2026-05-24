@@ -82,4 +82,3 @@ v1.0.0-rc.1
 ```
 
 Use pre-releases for GUI prototypes, automated flashing planners, and any workflow that needs broad testing before being recommended.
-

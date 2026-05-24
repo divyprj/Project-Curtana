@@ -11,4 +11,3 @@ Supported versions:
 Report privately when a bug could cause data loss, wrong partition writes, unsafe relock guidance, command injection, or leakage of serial numbers, IMEI values, account identifiers, or personal files.
 
 See the full policy at [docs/SECURITY.md](docs/SECURITY.md).
-

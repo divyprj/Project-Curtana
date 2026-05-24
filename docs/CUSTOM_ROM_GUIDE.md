@@ -267,4 +267,3 @@ Restore stock when:
 - You need to relock bootloader safely.
 
 Use [STOCK_ROM_RESTORE.md](STOCK_ROM_RESTORE.md).
-

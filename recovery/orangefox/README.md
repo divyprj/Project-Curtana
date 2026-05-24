@@ -22,4 +22,3 @@ Only flash after the temporary boot works:
 ```bat
 scripts\recovery\flash_recovery.bat recovery\orangefox\orangefox.img
 ```
-

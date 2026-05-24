@@ -195,4 +195,3 @@ Validate:
 - Recovery is stock if you plan to relock.
 
 If you relocked, confirm the device boots fully before doing further modifications.
-

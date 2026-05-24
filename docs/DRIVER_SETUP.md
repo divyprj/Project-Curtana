@@ -188,4 +188,3 @@ fastboot devices
 ```
 
 If all four states work, the host is ready for most Curtana flashing workflows.
-

@@ -102,4 +102,3 @@ Maintainer response target:
 4. Update docs and changelog.
 5. Release a patch version.
 6. Credit reporter if they want credit.
-

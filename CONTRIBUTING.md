@@ -16,4 +16,3 @@ Minimum expectations:
 $env:PYTHONPATH = "$PWD\automation"
 python -m pytest tests
 ```
-

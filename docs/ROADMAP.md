@@ -109,4 +109,3 @@ Goals:
 - Hosting proprietary ROMs or firmware.
 - Circumventing device security controls.
 - Supporting unrelated Xiaomi device families without maintainers and tests.
-

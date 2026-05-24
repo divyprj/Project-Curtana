@@ -24,4 +24,3 @@ Before flashing:
 2. Confirm Android base required by the ROM.
 3. Verify SHA256.
 4. Read rollback warnings in [docs/SECURITY_AND_FLASHING_SYSTEMS.md](../docs/SECURITY_AND_FLASHING_SYSTEMS.md).
-
