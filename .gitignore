@@ -4,6 +4,11 @@ logs/**
 !logs/.gitkeep
 
 # Local binary payloads
+/*.zip
+/*.tgz
+/*.tar
+/*.tar.md5
+/*.7z
 firmware/*.zip
 firmware/*.tgz
 firmware/*.tar
@@ -32,4 +37,3 @@ venv/
 # Windows
 Thumbs.db
 Desktop.ini
-
